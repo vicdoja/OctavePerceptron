@@ -29,6 +29,6 @@ for a=as
         aprox_err = nerr/(N-M);
         interval = 1.96 * sqrt(aprox_err *(1-aprox_err)/(N-M));
         
-        printf("%8.3f %8.3f %3d %3d %3d %8.2f [%4.2f, %4.2f]\n",a, b,E,k,nerr, aprox_err*100, (aprox_err-interval)*100, max([(aprox_err+interval)*100, 0]));
+        printf("%8.4f %8.3f %3d %3d %3d %8.2f [%4.2f, %4.2f]\n",a, b,E,k,nerr, aprox_err*100, max([(aprox_err-interval)*100, 0]), min([(aprox_err+interval)*100, 100]));
     end
 end
