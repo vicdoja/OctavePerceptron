@@ -1,0 +1,20 @@
+OCR:
+·If the value of b >> a then the result doesn't converge, since the algorithm isn't able to create the functions in the given number of iterations
+·The fact that the algorithm converges quickly maeans that the data is clearly linearly separable
+·Low error interval shows that the amount of samples during testing was more than enough
+
+Expressions
+·For most values of a and b the results plateau at the same aproximated error, showing there that the training data isn't represetntive of the testing set
+·Hgiher number of tierations until convergance shows that the data isn't as easy to separate, but is still linearly separable
+·Big error interval shows that there's too few testing data
+
+Gaus2D:
+·No combination of a and b could converge, showing that the data wasn't linearly separable
+·Spite of that the low error intervals shows that there was abundant number of data, therefore the problem is on the data not being separable
+
+Gender:
+·Similar to expressions most combinations of a and b leaded to the same aprxiamted error and number of mistakes, meaning the training set or/and the testing set is not representative of the population
+
+Videos:
+·No combination of a and b could converge, showing that the data wasn't linearly separable
+·Extremly High aproximate error shows that the error may be due to the selected features.
